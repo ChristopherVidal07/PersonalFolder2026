@@ -24,10 +24,25 @@ h2{
 .fontone{
     font-family: "Bricolage Grotesque", sans-serif;
     font-optical-sizing: auto;
-    
+    color: whitesmoke;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+  }
+
+  body{
+    background: linear-gradient(
+        45deg,
+        #374e9e,
+        #1e3178,
+        #0d1942
+    )
+  }
+
+  .information{
+    margin: 50px 106px;
+    font-size: 36px;
+
   }
 
 
