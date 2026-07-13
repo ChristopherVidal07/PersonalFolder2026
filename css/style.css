@@ -42,7 +42,36 @@ h2{
   .information{
     margin: 50px 106px;
     font-size: 36px;
+   
 
+
+  }
+  .chris{
+    height: 325px;
+    width: 250px;
+    border-radius: 70px;
+    transition: transform 0.3s ease;
+    animation: hoverMotion 3s ease-in-out infinite;
+    margin-top: 15px;
+  }
+  @keyframes hoverMotion {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px); /* Smoothly lifts up */
+    }
+    100% {
+      transform: translateY(0px); /* Returns down */
+    }
+  }
+
+  .inf-text{
+    font-size: 28px;
+  }
+
+  .summary{
+    display: flex;
   }
 
 
