@@ -56,6 +56,7 @@ h2{
     transition: transform 0.3s ease;
     animation: hoverMotion 3s ease-in-out infinite;
     margin-top: 15px;
+    margin-right: 100px;
   }
   @keyframes hoverMotion {
     0% {
@@ -75,7 +76,15 @@ h2{
 
   .summary{
     display: flex;
-    gap: 25px;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0px 0px;
+    gap: 60px;
+  }
+
+  .sum-place{
+    width: 720px;
+    margin-right: 80px;
   }
   .bot{
     font-size: 26px;
@@ -169,7 +178,7 @@ h2{
 
   .size-pj{
     background-color: #1a3079;
-    height: 840px;
+    height: 740px;
     width: 360px;
     border-radius: 25px;
   }
@@ -184,6 +193,7 @@ h2{
     margin-top: 4px;
     margin-bottom: 4px;
     padding: 2px 22px;
+    font-size: 32px;
   }
 
   .pj-pad{
@@ -224,13 +234,45 @@ h2{
   }
 
   .foot{
+    background-color:#1a3079;
     display: flex;
+    justify-content: space-between;
+    padding: 60px 120px;
   }
 
   .foot-links{
     display: flex;
     flex-direction: column;
+    margin-top: 26px;
+    gap: 15px;
+    font-size: 28px;
   }
+
+  .Con{
+    font-size: 80px;
+    margin-left: 20px;
+  }
+
+  a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+  .exp{
+    padding: 20px 40px
+  }
+  
+  .uptown{
+    padding-left: 40px;
+  }
+
+  #projects{
+    padding-bottom: 36px;
+  }
+
 
 
 
