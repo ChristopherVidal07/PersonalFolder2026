@@ -33,9 +33,11 @@ h2{
   body{
     background: linear-gradient(
         45deg,
-        #374e9e,
-        #1e3178,
-        #0d1942
+        #0b1745,
+        #0a1645,
+        #374e9e
+        
+        
     )
   }
 
@@ -72,6 +74,44 @@ h2{
 
   .summary{
     display: flex;
+    gap: 25px;
+  }
+  .bot{
+    font-size: 26px;
+    width: 160px;
+    height: 60px;
+    background-color:#4157ab;
+    color: whitesmoke;
+    border-radius: 80px;
+  }
+
+  .sticker{
+    background: transparent;
+    margin-top: 65px;
+    height: 440px;
+    width: 300px;
+  }
+
+  .about-sec{
+    background-color: #040a24;
+    display: flex;
+  }
+
+  .about-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  p{
+    margin-top: 0px;
+    margin-bottom: 36px;
+    font-size: 24px;
+  }
+
+  h3{
+    margin-bottom: 0px;
+    font-size: 26px;
   }
 
 
