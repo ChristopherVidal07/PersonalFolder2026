@@ -18,6 +18,7 @@ h2{
     font-size: 30px;
     margin-top: 10px;
     font-weight: 800;
+    margin-bottom: 0px;
 }
 
 
@@ -87,20 +88,25 @@ h2{
 
   .sticker{
     background: transparent;
-    margin-top: 65px;
-    height: 440px;
-    width: 300px;
+    margin-top: 0px;
+    height: 580px;
+    width: 400px;
+    padding-bottom: 24px;
   }
 
   .about-sec{
     background-color: #040a24;
-    display: flex;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 35px;
+    margin-right: 35px;
   }
 
   .about-text{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 20px;
+    gap: 60px;
   }
 
   p{
@@ -110,9 +116,125 @@ h2{
   }
 
   h3{
+    margin-top: 0px;
     margin-bottom: 0px;
     font-size: 26px;
   }
+
+  .about-title{
+    margin-left: 40px;
+    padding-top: 60px;
+    margin-bottom: 0px;
+  }
+
+  .about-sectwo{
+    display: flex;
+    padding: 40px 120px;
+    gap: 40px;
+
+  }
+
+  .icon{
+    height: 100px;
+    width: 100px;
+  }
+
+  .single-about{
+    display: flex;
+    gap: 15px;
+  }
+
+  .single-t-a{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects-sec{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 0px 80px;
+  }
+
+  .project-img{
+    height: 220px;
+    width: 300px;
+  }
+
+  .pj-place{
+    display: flex;
+    align-content: center;
+    padding: 40px 30px;
+  }
+
+  .size-pj{
+    background-color: #1a3079;
+    height: 840px;
+    width: 360px;
+    border-radius: 25px;
+  }
+
+  h6{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 2px 22px;
+  }
+
+  h4{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 2px 22px;
+  }
+
+  .pj-pad{
+    padding: 0px 20px;
+  }
+
+  .par{
+    margin-bottom: 5px;
+  }
+
+  .language{
+    background-color:   #0b1745;
+    border-radius: 70px;
+  }
+
+  .pos-la{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .links{
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+  }
+
+  .but-links{
+    background-color: #374e9e;
+    border-radius: 70px;
+  
+  }
+  
+  .pj-head{
+    margin-left: 64px;
+    padding: 15px 0px;
+  }
+
+  .foot{
+    display: flex;
+  }
+
+  .foot-links{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  
 
 
 
